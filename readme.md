@@ -13,6 +13,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
+- [Test Execution](#test-execution)
 
 ## Introduction
 
@@ -75,4 +76,11 @@ The project follows a standard Maven project structure and is organized as follo
 | |   └──[Cucumber feature files]
 ├── pom.xml
 └── README.md
+```
+## Test Execution
+
+To run the Cucumber tests, use the following command:
+
+```
+mvn test
 ```
